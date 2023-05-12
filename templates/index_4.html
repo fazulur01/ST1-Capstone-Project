@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chart Display</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Predictive Data Analysis</h1>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="text-center">
+                    <img src="{{ url_for('static', filename='PDA/accuracy result of PDA model.png') }}" alt="accuracy result of PDA model" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='PDA/dataset for PDA (all values converted to nominal).png') }}" alt="dataset for PDA (all values converted to nominal)" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='PDA/individual score of PDA models.png') }}" alt="individual score of PDA models" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='PDA/score of individual PDA models.png') }}" alt="score of individual PDA models" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='PDA/table of score of PDA models.png') }}" alt="table of score of PDA models" class="img-fluid mb-4">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chart Display</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Exploratory Data Analysis</h1>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="text-center">
+                    <img src="{{ url_for('static', filename='EDA/bar chart for upper 95 uncertainty vs ISO (EDA).png') }}" alt="bar chart for upper 95 uncertainty vs ISO (EDA)" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='EDA/box chart to visualize dataset after removing outliers (EDA).png') }}" alt="box chart to visualize dataset after removing outliers (EDA)" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='EDA/box chart to visualize dataset before removing outliers (EDA).png') }}" alt="box chart to visualize dataset before removing outliers (EDA)" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='EDA/coorelation(EDA).png') }}" alt="coorelation(EDA)" class="img-fluid mb-4">
+                    <img src="{{ url_for('static', filename='EDA/visualization of data distribution using histogram(EDA).png') }}" alt="visualization of data distribution using histogram(EDA)" class="img-fluid mb-4">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
